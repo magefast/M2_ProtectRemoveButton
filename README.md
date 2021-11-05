@@ -2,7 +2,7 @@
 
 This extension will hide REMOVE / DELETE buttons for followings:
 - Category
-- Product
+- Product Delete Button Mass Action
 - CMS Page
 - CMS Block
 
