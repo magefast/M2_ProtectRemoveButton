@@ -1,4 +1,4 @@
-# Extension for Magento 2: ProtectRemoveButton
+# Extension for Magento 2: Protect Remove Button
 
 This extension will hide REMOVE buttons for followings:
 - Category
