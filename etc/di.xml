@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Catalog\Block\Adminhtml\Category\Edit\DeleteButton">
+        <plugin name="disable_category_delete_button" type="Strekoza\ProtectRemoveButton\Plugin\CategoryDeleteButton" sortOrder="5"/>
+    </type>
+    <type name="Magento\Cms\Block\Adminhtml\Page\Edit\DeleteButton">
+        <plugin name="disable_page_delete_button" type="Strekoza\ProtectRemoveButton\Plugin\PageDeleteButton" sortOrder="5"/>
+    </type>
+    <type name="Magento\Cms\Block\Adminhtml\Block\Edit\DeleteButton">
+        <plugin name="disable_block_delete_button" type="Strekoza\ProtectRemoveButton\Plugin\BlockDeleteButton" sortOrder="5"/>
+    </type>
+    <type name="Magento\Catalog\Ui\Component\Product\MassAction">
+        <plugin name="disable_product_mass_action_button" type="Strekoza\ProtectRemoveButton\Plugin\ProductMassActionDeleteButton" sortOrder="5"/>
+    </type>
+</config>

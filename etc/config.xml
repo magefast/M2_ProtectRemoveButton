@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <protect_remove_button>
+            <settings>
+                <category_delete_button>1</category_delete_button>
+                <product_delete_button_mass_action>1</product_delete_button_mass_action>
+            </settings>
+        </protect_remove_button>
+    </default>
+</config>
