@@ -29,3 +29,8 @@ This is very harmful and danger for SALES.
 
 
 ![Category](https://image.prntscr.com/image/9OFv4ULdQTycELo_dWC5_g.png)
+
+
+## Install with Composer
+
+`composer require strekoza/module-protect-remove-button`
