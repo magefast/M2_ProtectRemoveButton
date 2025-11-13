@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Ui\Component\MassAction">
+        <plugin name="disable_list_massaction_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\MassactionDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Catalog\Ui\Component\Product\MassAction">
+        <plugin name="disable_product_list_massaction_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\Product\MassactionProductDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Catalog\Block\Adminhtml\Category\Edit\DeleteButton">
+        <plugin name="disable_category_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\Category\CategoryDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Cms\Block\Adminhtml\Page\Edit\DeleteButton">
+        <plugin name="disable_cms_page_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\CmsPage\PageDeleteButton"
+                sortOrder="5"/>
+    </type>
+    <type name="Magento\Cms\Ui\Component\Listing\Column\PageActions">
+        <plugin name="disable_cms_pages_list_action_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\CmsPage\PageActionsDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Cms\Block\Adminhtml\Block\Edit\DeleteButton">
+        <plugin name="disable_cms_block_delete_btn" type="Strekoza\ProtectRemoveButton\Plugin\CmsBlock\CmsBlockDeleteButton"
+                sortOrder="999"/>
+    </type>
+    <type name="Magento\Cms\Ui\Component\Listing\Column\BlockActions">
+        <plugin name="disable_cms_block_list_action_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\CmsBlock\CmsBlockActionsDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Catalog\Block\Adminhtml\Product\Attribute\Set\Main">
+        <plugin name="disable_attribute_set_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\Attribute\AttributeSetDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Magento\Backend\Block\Widget\Button\ButtonList">
+        <plugin name="disable_attribute_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\Attribute\AttributeDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+    <type name="Swissup\Navigationpro\Ui\Component\Listing\Column\MenuActions">
+        <plugin name="disable_menu_list_action_delete_btn"
+                type="Strekoza\ProtectRemoveButton\Plugin\Navigationpro\MenuActionsDeleteButton"
+                sortOrder="999"/>
+    </type>
+
+</config>
