@@ -8,6 +8,7 @@ This extension will hide REMOVE / DELETE buttons for followings:
 
 
 
+
 For my opinion this extension MUST HAVE for first, before run in Production.
 Very often CMS managers/Content editors - make mistake, remove Categories or Products.
 This is very harmful and danger for SALES.
