@@ -1,10 +1,20 @@
 # Extension for Magento 2: Protect Remove Button
 
 This extension will hide REMOVE / DELETE buttons for followings:
-- Category
-- Product Delete Button Mass Action
+- Category, Delete Button on Edit Page 
+- Product
+  - Delete Button Mass Action
+  - Delete Button List Actions
 - CMS Page
+  - Delete Button on Edit Page 
+  - Delete Button Mass Action
+  - Delete Button List Actions
 - CMS Block
+  - Delete Button on Edit Page 
+  - Delete Button Mass Action
+  - Delete Button List Actions
+- Attribute, Delete Button on Edit Page
+- Attribute Set, Delete Button on Edit Page
 
 
 For my opinion this extension MUST HAVE for first, before run in Production.
